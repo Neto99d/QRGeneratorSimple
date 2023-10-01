@@ -66,7 +66,7 @@ def main(page: ft.Page):
         except:
 
             error_text = ft.Text(
-                "Error al guardar imagen, Intente de nuevo...",  size=20, text_align=ft.TextAlign.CENTER, color="red")
+                "Error al guardar imagen, cierre y abra la aplicación nuevamente e intente de nuevo... O puede que el directorio Descargas o Downloads que crea Windows para el usuario no exista en su equipo para guardar la imagen",  size=20, text_align=ft.TextAlign.CENTER, color="red")
             page.add(error_text)
 
             page.update()
@@ -75,7 +75,7 @@ def main(page: ft.Page):
     page.padding = 20
     page.window_width = 900
     page.window_height = 600
-    #page.window_resizable = False
+    # page.window_resizable = False
     page.scroll = 'auto'
 
     page.title = "Genera tu QR"

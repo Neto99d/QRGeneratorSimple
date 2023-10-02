@@ -98,7 +98,7 @@ def main(page: ft.Page):
     )
 
     firma = ft.Text(
-        "Desarrollado por: Jore Ernesto Duvalón Hernández")
+        "Desarrollado por: Jorge Ernesto Duvalón Hernández")
     page.add(ft.Divider(
         height=5, color="white"), firma, ft.Divider(
         height=5, color="white"))
